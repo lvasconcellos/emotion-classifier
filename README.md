@@ -2,6 +2,8 @@
 
 This project provides a simple, pre-trained AI model for emotion classification based on text input. The goal is to create a **clean, reusable**, and **open-source** implementation before customizing it for specific use cases.
 
+![GitHub Actions](https://github.com/lvasconcellos/emotion-classifier/actions/workflows/tests.yml/badge.svg)
+
 ## Features
 - Uses a **Hugging Face** pre-trained model for emotion classification.
 - Supports **virtual environment (venv)** for dependency management.
