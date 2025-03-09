@@ -19,7 +19,9 @@ jobs:
         run: |
           python -m venv venv
           source venv/bin/activate
-          pip install --upgrade pip pre-commit
+          pip install --upgrade pip
+          pip install -r requirements.txt
+          pip install pytest
 
       - name: Run pre-commit checks
         run: |
